@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik } from "formik";
 import * as Yup from "yup";
+/*This works as a validation function to provide validation and parameters for validation*/
 const ValidatedLoginForm = () => (
   <Formik
     initialValues={{ email: "", password: "" }}
@@ -26,6 +27,7 @@ const ValidatedLoginForm = () => (
       }, 500);
     }}
     
+    /* Yup used to apply validationSchema that makes validation work much easier!! :) */
     validationSchema={Yup.object().shape({
       email: Yup.string()
         .email()
