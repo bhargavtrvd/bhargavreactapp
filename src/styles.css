@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height:100%;
+  width:100%;
+  background:#ededed;
+}
+.Green{
+	float:left;
+	width:100%;
+	height:1px;
+	background:#06874e;
+
+}
+.LightGreen{
+	float:left;
+	width:100%;
+	height:1px;
+	background:#239563;
+}
+.signinLab {
+    margin-top: 35px;
+    width: 100%;
+    float: left;
+	font-size:35px;	
+	font-weight:700;
+}
+.loginEmail,.loginPass,.rememMe{
+	max-width: 420px;
+    width: 100%;
+    display:inline-block;
+    height: auto;
+    margin: auto;
+	margin-top: 15px;
+	font-weight: 700;
+}
+.loginPage{
+	
+	max-width: 500px;
+    max-height: 570px;
+    width: 570px;
+    height: 570px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%;
+	background:#fff;
+}
+.emailInput input, .passInput input{
+	width:100%;
+	height:50px;
+	border:1px solid #d0d6dc;
+
+}
+.emailInput input.error, .passInput input.error{
+	-webkit-box-shadow: 0 0 3px #D8000C;
+        box-shadow: 0 0 3px #D8000C;
+}
+.EmailID,.Password{
+	font-size:24px;
+	float:left;
+}
+.rememMe{
+	text-align:left;
+	font-weight:500;
+}
+.rememMe input, .rememMe label, .submitIt{
+	cursor:pointer;
+}
+.submitIt{
+	background-color:#06874e;
+	color:#fff;
+	border:1px solid #06874e;
+	width:100%;
+	max-width:420px;
+	height:50px;
+	margin-top:24px;
+	font-size:24px;
+	font-weight:500;
+}
+.bottom-section > div{
+	margin-top:15px;
+}
+.bottom-section a{
+	color:#000;
+	font-weight:bold;
+}
+.loginEmail, .loginPass{
+	position:relative;
+}
+.input-feedback{
+	position:absolute;
+	font-weight:normal;
+	font-size:12px;
+	color:#D8000C;
+	text-transform: capitalize;
+	top: 103%;
+}
