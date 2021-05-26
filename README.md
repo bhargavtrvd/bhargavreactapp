@@ -29,7 +29,7 @@ npm –v
 
 *---------- Once node is installed ----------------*
 
-Steps to be followed to download the React app:
+Steps to be followed to download and deploy the React app:
 
 1. Click on "Code" (green button) button on top right corner next to "Go to file" button.
 2. Click on Download ZIP button to download the ZIP file of the app
